@@ -1,0 +1,13 @@
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 10px;
+  background-color: gray;
+  color: white;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400px;
+  margin: 10px;
+}
