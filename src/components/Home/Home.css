@@ -1,0 +1,13 @@
+.home-topics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+.home-topics img {
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  margin: 10px;
+  background-color: lightgrey;
+}
