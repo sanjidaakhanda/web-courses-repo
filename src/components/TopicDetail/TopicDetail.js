@@ -3,7 +3,7 @@ import { useLoaderData } from "react-router-dom";
 import Quiz from "../Quiz/Quiz";
 import "./TopicDetail.css";
 const TopicDetail = () => {
-  const quizes = useLoaderData([]);
+  const quizes = useLoaderData();
   console.log(quizes);
   return (
     <div className="topic-detail">
