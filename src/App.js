@@ -27,9 +27,23 @@ function App() {
           },
           element: <TopicDetail></TopicDetail>,
         },
-        { path: "/Static", element: <Static></Static> },
+        {
+          path: "/Static",
+          loader: () => {
+            fetch("https://openapi.programming-hero.com/api/quiz");
+          },
+          element: <Static></Static>,
+        },
         { path: "/Blog", element: <Blog></Blog> },
       ],
+    },
+    {
+      path: "*",
+      element: (
+        <div>
+          <h1>Data not found</h1>
+        </div>
+      ),
     },
   ]);
   return (

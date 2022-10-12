@@ -11,7 +11,7 @@ const Blog = () => {
         React and used to create routing in the React application using React
         Router Package.
       </p>
-      <h2>2. How content API work?</h2>
+      <h2>2. How does context API work?</h2>
       <p>
         Answer-- An API, short for Application Programming Interface, is a
         software-to-software interface. APIs provide a secure and standardized
