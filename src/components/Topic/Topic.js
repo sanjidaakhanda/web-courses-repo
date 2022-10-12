@@ -8,7 +8,7 @@ const Topic = ({ topic }) => {
       <img src={logo} alt="" />
       <p>Name:{name}</p>
       <Link to={`/topic/${id}`}>
-        <button>See Details</button>
+        <button>Start Quiz</button>
       </Link>
     </div>
   );

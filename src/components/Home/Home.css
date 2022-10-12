@@ -11,3 +11,20 @@
   margin: 10px;
   background-color: lightgrey;
 }
+.home-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+
+  margin: 20px;
+}
+.home-picP {
+  margin-left: 60px;
+}
+
+@media screen and (max-width: 450px) {
+  .home-topics {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
