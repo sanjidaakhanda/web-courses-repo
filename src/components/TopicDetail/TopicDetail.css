@@ -1,0 +1,6 @@
+.topic-detail {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 40px;
+}
